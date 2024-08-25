@@ -48,12 +48,12 @@ while true; do
     RM4=$(echo "$configs" | awk -F '=' '/^RM4=/{print $2}')
     RM5=$(echo "$configs" | awk -F '=' '/^RM5=/{print $2}')
     RM6=$(echo "$configs" | awk -F '=' '/^RM6=/{print $2}')
-	RM7=$(echo "$configs" | awk -F '=' '/^RM7=/{print $2}')
+    RM7=$(echo "$configs" | awk -F '=' '/^RM7=/{print $2}')
     RM8=$(echo "$configs" | awk -F '=' '/^RM8=/{print $2}')
     RM9=$(echo "$configs" | awk -F '=' '/^RM9=/{print $2}')
-	RM10=$(echo "$configs" | awk -F '=' '/^RM10=/{print $2}')
-	
-	TS=$(echo "$configs" | awk -F '=' '/^TS=/{print $2}')
+    RM10=$(echo "$configs" | awk -F '=' '/^RM10=/{print $2}')
+    
+    TS=$(echo "$configs" | awk -F '=' '/^TS=/{print $2}')
 	
 #----------------SDIR1 -> TDIR1---------------------
 
